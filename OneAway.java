@@ -1,6 +1,6 @@
 /**
  * @author chaithanyac
- * program to find if the given two strings are one edit away
+ * method to find if the given two strings are one edit away
  * edit operation includes: replace, insert, delete
  */
 
@@ -16,7 +16,7 @@ public class OneAway {
         if ((strlen1 - strlen2) > 1 || (strlen2 - strlen1) > 1)
             return false;
 
-        /*method to check for replace/insertion/deletion*/
+        /*check for replace/insertion/deletion*/
         int i = 0;
         int j = 0;
         int dif = 0;
