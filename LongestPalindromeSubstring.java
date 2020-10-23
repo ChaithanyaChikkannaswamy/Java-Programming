@@ -1,5 +1,5 @@
 /*
-* method that returns the longest palindromic substring in a given string
+* method that returns the longest possible palindromic substring in a given string
 */
 
 
